@@ -1,0 +1,70 @@
+#Book butonuna tikla
+* "com.m.qr:id/nav_menu_book" li book butonuna tikla
+
+#From alanina tikla
+* <com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder> li binis yeri secimi icin tikla
+
+# Uygulamayi kontrol et
+* "com.m.qr:id/main_text" li "Enable location services to fully personalise your experience" deger geldi mi kontrol et
+
+#Skip1 islemlerini yap
+* "com.m.qr:id/skip_button" li skip butonuna tikla
+
+#Skip2 islemlerini yap
+* "com.m.qr:id/onboarding_skip_button" li onboarding butonuna tikla
+
+#Bildirim islemlerini kapat
+* "com.m.qr:id/push_consent_decline" li bildirim kapatma butonuna tikla
+
+#One-Way butonuna tikla
+* Book butonuna tikla
+* "//android.widget.LinearLayout[@content-desc='One-way']" li one-way butonuna tikla
+
+#From alanina tikla
+* <com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder> li binis yeri secimi icin tikla
+
+#From alanina Berlin yaz
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" li from alanina "Berlin" degerini yaz
+
+#From alaninda Berlin Brandenburg airport sec
+* "(//*[@class='androidx.recyclerview.widget.RecyclerView']/android.view.ViewGroup)[1]" li airporta tikla
+
+#To alanina tikla
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_select_destination_text_view" li inis yeri secimi icin tikla
+
+#To alanina İstanbul yaz
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" li from alanina "Istanbul" degerini yaz
+
+#To alaninda Istanbul Airport sec
+* "(//*[@class='androidx.recyclerview.widget.RecyclerView']/android.view.ViewGroup)[1]" li airporta tikla
+
+#Date alanina tikla
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_departure_date_holder" li date alanina tikla
+
+#Bugunden yedi gun sonrasini secme
+* "(//*[@class='android.widget.TextView' and @clickable='true'])[7]" li yedi gun sonraki date tarihine tikla
+
+#Confirm butonuna tikla
+* "com.m.qr:id/fragment_calendar_confirm_button" li date confirm butonuna tikla
+
+#Search flights butonuna tikla
+* "com.m.qr:id/rvmp_booking_search_flights_button" li search flights butonuna tikla
+
+#Ucus listesi kontrol islemi
+* ucus ekrani kontrol et
+
+#Search result degerini alir
+* "com.m.qr:id/rvmp_results_count" li search result degerini bul
+
+#Search random ucus secimi yapilir
+* "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup" li ucusa tikla
+
+#Economy class secimi yapilir
+* "//*[@resource-id='com.m.qr:id/rvmp_activity_flight_details_card_view'][1]"li economy class secimi yapilir
+
+#Select this fare butonuna tikla
+* "com.m.qr:id/rvmp_activity_flight_details_select_button" li this fare butonu click
+
+#Secilen ucus degerlerinin kontrolu
+* "//*[@resource-id='com.m.qr:id/from_time']" li kalkis time degerini alir
+* "//*[@resource-id='com.m.qr:id/to_time']" li inis time degerini alir
